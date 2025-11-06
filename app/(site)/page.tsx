@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div className="hero-bg max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs mb-4">
         Yeni fırsatlara açık · Data & AI
       </span>

@@ -1,6 +1,7 @@
-import "../../styles/globals.css";
-
+import "@/styles/globals.css";
 import type { Metadata } from "next";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: { default: "Hasan Memiş – Portfolio", template: "%s | Hasan Memiş" },
@@ -19,7 +20,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="tr" className="scroll-smooth">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
