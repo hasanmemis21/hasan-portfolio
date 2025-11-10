@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ALTINAY/Desktop/B%C4%B0LG%C4%B0%20%C4%B0%C5%9ELEM-YAZILIM/hasan-portfolio/components/skill-meter.tsx"],"sourcesContent":["\"use client\";\r\nimport { useEffect, useState } from \"react\";\r\n\r\nexport default function SkillMeter({ level=80 }: { level?: number }) {\r\n  const [w, setW] = useState(0);\r\n  useEffect(()=>{ const t=setTimeout(()=>setW(level), 80); return ()=>clearTimeout(t); },[level]);\r\n  return (\r\n    <div className=\"mt-3 h-2 rounded-full bg-white/5 ring-1 ring-white/10 overflow-hidden\">\r\n      <div className=\"h-full rounded-full bg-gradient-to-r from-emerald-400 to-indigo-400 transition-all duration-700\" style={{ width: `${w}%` }}/>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AACA;AADA;;;AAGe,SAAS,WAAW,EAAE,QAAM,EAAE,EAAsB;IACjE,MAAM,CAAC,GAAG,KAAK,GAAG,IAAA,iNAAQ,EAAC;IAC3B,IAAA,kNAAS,EAAC;QAAM,MAAM,IAAE,WAAW,IAAI,KAAK,QAAQ;QAAK,OAAO,IAAI,aAAa;IAAI,GAAE;QAAC;KAAM;IAC9F,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;YAAkG,OAAO;gBAAE,OAAO,GAAG,EAAE,CAAC,CAAC;YAAC;;;;;;;;;;;AAG/I","debugId":null}}]
+}

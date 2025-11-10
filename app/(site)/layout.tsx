@@ -4,6 +4,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
+  other: { "viewport": "width=device-width, initial-scale=1, viewport-fit=cover" },
   title: { default: "Hasan Memiş – Portfolio", template: "%s | Hasan Memiş" },
   description: "Software Engineer • Data & AI • Computer Vision • BI",
   metadataBase: new URL("http://localhost:3000"),

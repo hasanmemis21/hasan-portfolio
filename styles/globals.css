@@ -15,3 +15,158 @@ h1,h2,h3 { letter-spacing: -0.01em; }
     radial-gradient(800px 400px at 10% -10%, rgba(16,185,129,0.18), transparent),
     radial-gradient(800px 400px at 110% 10%, rgba(16,185,129,0.12), transparent);
 }
+/* —— Light minimal hero ———————————————————————————————— */
+.bg-hero-light{
+  background:
+    radial-gradient(60rem 30rem at 50% 0%, rgba(0,0,0,0.03), transparent 70%),
+    linear-gradient(#fff,#fff);
+}
+html.light body, .bg-hero-light{ color: #0b0d10; }
+
+/* kağıt dokusu (çok hafif) */
+.bg-hero-light{
+  background-image:
+    radial-gradient(60rem 30rem at 50% 0%, rgba(0,0,0,0.03), transparent 70%),
+    linear-gradient(#fff,#fff),
+    radial-gradient(1px 1px at 20% 20%, rgba(0,0,0,0.04) 1px, transparent 1px);
+  background-size: auto, auto, 12px 12px;
+}
+
+/* orbit çizgileri */
+.orbit-line{
+  position:absolute; inset:0; border:2px dashed rgba(16,185,129,0.8);
+  border-radius: 9999px; mix-blend: multiply; animation: dash 6s linear infinite;
+}
+.orbit-a{ transform: rotate(12deg) scaleX(1.10) scaleY(0.80); }
+.orbit-b{ transform: rotate(-18deg) scaleX(0.95) scaleY(0.70); border-color: rgba(99,102,241,0.8); }
+.orbit-c{ transform: rotate(34deg) scaleX(0.85) scaleY(0.58); border-color: rgba(236,72,153,0.8); }
+
+@keyframes dash { to { border-spacing: 6px; border-width:2px; } }
+@keyframes orbitSpin { to { transform: rotate(360deg); } }
+.animate-orbit{ animation: orbitSpin 22s linear infinite; }
+
+/* card hover parıltı */
+.card-glow:hover{
+  box-shadow: 0 10px 40px rgba(16,185,129,0.12), 0 0 0 1px rgba(255,255,255,0.08) inset;
+}
+/* card grid yumuşatma */
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+@media (min-width: 640px) {
+  .card-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (min-width: 1024px) {
+  .card-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+}
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+.animate-spin-slow {
+  animation: spin-slow 30s linear infinite;
+}
+.input{
+  @apply w-full rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/40 focus:border-emerald-500/40;
+}
+/* ===================== Mobile & A11y Responsive Tweaks ===================== */
+
+/* 1) Tipografi – başlıkları ekrana göre ölçekle */
+:root{
+  --h1-min: 1.9rem;      /* ~30px */
+  --h1-max: 3.5rem;      /* ~56px */
+}
+h1{
+  font-size: clamp(var(--h1-min), 6vw, var(--h1-max));
+  line-height: 1.15;
+}
+h2{
+  font-size: clamp(1.25rem, 3.2vw, 2rem);
+  line-height: 1.2;
+}
+
+/* 2) Küçük ekran boşluk/padding optimizasyonu */
+@media (max-width: 640px){
+  .btn-solid, .btn-outlined{
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.75rem;
+    font-size: 0.9rem;
+  }
+  .input{
+    padding: 0.6rem 0.75rem;
+    font-size: 0.95rem;
+  }
+  /* Proje kart gridini tek kolona indir */
+  .card-grid{
+    grid-template-columns: 1fr !important;
+    gap: 1rem;
+  }
+  /* Kart içi paddingleri yumuşat */
+  .card-grid > *{
+    padding: 1rem !important;
+  }
+  /* Hero içindeki rozet/badge’leri küçült */
+  .rounded-md.bg-white\/5{
+    padding: 0.2rem 0.45rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* 3) Orbits / küre / sahne yüksekliği (daha kompakt) */
+@media (max-width: 1024px){
+  .sphere-stage{ height: 460px; }
+}
+@media (max-width: 640px){
+  .sphere-stage{ height: 360px; }
+}
+
+/* 4) Dekoratif blur ve parıltıları mobilde azalt (performans + okunabilirlik) */
+@media (max-width: 640px){
+  .blur-3xl{ filter: blur(32px); }     /* 48px yerine 32px */
+  .hero-space, .brain-scene{
+    filter: saturate(1.0);
+    mask-image: radial-gradient(68% 56% at 50% 44%, #000 70%, transparent 100%);
+  }
+}
+
+/* 5) Terminal ve form bölümleri – satırı kır ve taşmayı engelle */
+@media (max-width: 640px){
+  pre, code{
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  form .flex.items-center.gap-3{
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+  }
+}
+
+/* 6) İkonlu rozet/badge’ler – dar ekranda daha kompakt */
+@media (max-width: 640px){
+  .badge, .orbit .badge, .skill-pill{
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    border-radius: 0.75rem;
+  }
+}
+
+/* 7) Animasyonlar – düşük hareket tercihine veya mobile göre yumuşat */
+@media (max-width: 640px){
+  .animate-spin-slow{ animation-duration: 40s; }  /* biraz yavaşlat */
+}
+@media (prefers-reduced-motion: reduce){
+  *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition: none !important; }
+}
+/* Slide-in anim utility (Tailwind v3 "animate-in" yoksa) */
+@keyframes slideInRight { from { transform: translateX(100%); opacity: 0 } to { transform: translateX(0); opacity: 1 } }
+.slide-in-from-right { animation: slideInRight .2s ease-out both; }
+
+/* iOS notch safe-area padding yardımcıları */
+.safe-top { padding-top: env(safe-area-inset-top); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+/* mobile drawer hardening */
+.slide-in-from-right { animation: slideInRight .2s ease-out both; }
+@keyframes slideInRight { from { transform: translateX(100%); opacity: 0 } to { transform: translateX(0); opacity: 1 } }
+
+.mobile-drawer, .mobile-drawer * {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}

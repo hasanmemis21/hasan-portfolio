@@ -1,5 +1,1900 @@
-[00:00:01.748] Server  LOG      ✓ Ready in 1131ms
-[00:00:04.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:12.367] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:02:45.620] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:47.423] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:02.911] Server  LOG      ✓ Ready in 1994ms
+[00:00:07.375] Server  LOG      ○ Compiling / ...
+[00:00:09.815] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.224] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:34.601] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.605] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.608] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.612] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.616] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.620] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.624] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.627] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.631] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.634] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.638] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.641] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.646] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.649] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.653] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.660] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.666] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.671] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.674] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.678] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.682] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.687] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.690] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.694] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.699] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.703] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.707] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.711] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.716] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.721] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.724] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.727] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.731] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.736] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.739] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.742] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.747] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.752] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.756] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.758] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.762] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.766] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.769] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.772] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:34.775] Server  LOG      ✓ Compiled in 112ms
+[00:08:35.035] Browser ERROR   ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:35.035] Browser ERROR   ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:57.817] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.819] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.821] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.825] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.828] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.831] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.834] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.837] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.843] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.847] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.852] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.857] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.862] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.865] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.869] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.873] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.878] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.881] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.884] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.888] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.893] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.896] Server  ERROR    ⨯ ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.899] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.904] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:08:57.906] Server  LOG      ✓ Compiled in 227ms
+[00:08:58.034] Browser ERROR   ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:58.035] Browser ERROR   ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:18.035] Browser ERROR   ./app/(site)/page.tsx:2:1
+Module not found: Can't resolve '@/components/brands-row'
+  1 | import HeroMinimal from "@/components/hero-minimal";
+> 2 | import BrandsRow from "@/components/brands-row";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+  5 | import { projects } from "@/lib/projects";
+
+Import map: aliased to relative './components/brands-row' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:18.035] Browser ERROR   ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:31.534] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.537] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.541] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.543] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.547] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.550] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.554] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.557] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.561] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.564] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.568] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:31.570] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:32.035] Browser ERROR   ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:35.491] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.494] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.496] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.500] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.503] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.505] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.507] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.510] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.512] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.514] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.517] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.520] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.522] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.524] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.527] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.529] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.532] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.534] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.537] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.540] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.542] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.544] Server  ERROR    ⨯ ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:09:35.546] Server  LOG      ✓ Compiled in 81ms
+[00:09:36.030] Browser ERROR   ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:36.030] Browser ERROR   ./app/(site)/page.tsx:1:1
+Module not found: Can't resolve '@/components/hero-minimal'
+> 1 | import HeroMinimal from "@/components/hero-minimal";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import BrandsRow from "@/components/brands-row";
+  3 | import Section from "@/components/section";
+  4 | import ProjectCard from "@/components/project-card";
+
+Import map: aliased to relative './components/hero-minimal' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:54.975] Server  LOG      ✓ Compiled in 93ms
+[00:10:00.915] Server  LOG      ✓ Compiled in 201ms
+[00:10:25.093] Server  LOG      ✓ Compiled in 101ms
+[00:10:25.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:27.530] Server  LOG      ✓ Compiled in 87ms
+[00:10:39.934] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:42.188] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:10:42.376] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/hasan.png" "received" null
+[00:13:11.145] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:11.330] Browser WARN    Image with src "/images/hasan.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:13:28.871] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:14:43.600] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:45.310] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:27:13.988] Server  ERROR    ⨯ ./app/(site)/skills/page.tsx:3:1
+Module not found: Can't resolve '@/components/skill-meter'
+  1 | import Section from "@/components/section";
+  2 | import SkillPill from "@/components/skill-pill";
+> 3 | import SkillMeter from "@/components/skill-meter";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+  6 | export const metadata = { title: "Yetenekler" };
+
+Import map: aliased to relative './components/skill-meter' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:13.991] Server  ERROR    ⨯ ./app/(site)/skills/page.tsx:3:1
+Module not found: Can't resolve '@/components/skill-meter'
+  1 | import Section from "@/components/section";
+  2 | import SkillPill from "@/components/skill-pill";
+> 3 | import SkillMeter from "@/components/skill-meter";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+  6 | export const metadata = { title: "Yetenekler" };
+
+Import map: aliased to relative './components/skill-meter' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:13.994] Server  ERROR    ⨯ ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:13.998] Server  ERROR    ⨯ ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:14.025] Server  LOG      ✓ Compiled in 110ms
+[00:27:15.031] Browser ERROR   ./app/(site)/skills/page.tsx:3:1
+Module not found: Can't resolve '@/components/skill-meter'
+  1 | import Section from "@/components/section";
+  2 | import SkillPill from "@/components/skill-pill";
+> 3 | import SkillMeter from "@/components/skill-meter";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+  6 | export const metadata = { title: "Yetenekler" };
+
+Import map: aliased to relative './components/skill-meter' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:27:15.031] Browser ERROR   ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:27:15.031] Browser ERROR   ./app/(site)/skills/page.tsx:3:1
+Module not found: Can't resolve '@/components/skill-meter'
+  1 | import Section from "@/components/section";
+  2 | import SkillPill from "@/components/skill-pill";
+> 3 | import SkillMeter from "@/components/skill-meter";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+  6 | export const metadata = { title: "Yetenekler" };
+
+Import map: aliased to relative './components/skill-meter' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:27:15.031] Browser ERROR   ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:27:31.038] Server  ERROR    ⨯ ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:31.042] Server  ERROR    ⨯ ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:32.034] Browser ERROR   ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:27:34.145] Server  ERROR    ⨯ ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:34.147] Server  ERROR    ⨯ ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:34.188] Server  LOG      ✓ Compiled in 102ms
+[00:27:35.031] Browser ERROR   ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:27:35.031] Browser ERROR   ./app/(site)/skills/page.tsx:2:1
+Module not found: Can't resolve '@/components/skill-pill'
+  1 | import Section from "@/components/section";
+> 2 | import SkillPill from "@/components/skill-pill";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import SkillMeter from "@/components/skill-meter";
+  4 | import { Code, Cpu, Database, Brain, LineChart } from "lucide-react";
+  5 |
+
+Import map: aliased to relative './components/skill-pill' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:27:50.603] Server  LOG      ✓ Compiled in 87ms
+[00:27:52.047] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `SkillsPage`.
+[00:27:55.341] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:27:55.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:31.677] Server  LOG      ✓ Compiled in 262ms
+[00:28:48.179] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:32:39.004] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:39.158] Browser WARN    Image with src "/images/hasan.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:32:42.074] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:38:55.081] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:55.222] Browser WARN    Image with src "/images/hasan.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:38:58.352] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:48:39.897] Server  LOG      ✓ Compiled in 90ms
+[00:48:44.656] Server  LOG      ✓ Compiled in 91ms
+[00:52:07.072] Server  LOG      ✓ Compiled in 246ms
+[00:57:32.140] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:32.282] Browser WARN    Image with src "/images/hasan.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:57:34.172] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:03:50.413] Server  LOG      ✓ Compiled in 103ms
+[01:03:52.625] Server  LOG      ✓ Compiled in 102ms
+[01:04:24.890] Server  LOG      ✓ Compiled in 110ms
+[01:04:45.375] Server  LOG      ✓ Compiled in 109ms
+[01:14:00.834] Server  LOG      ✓ Compiled in 127ms
+[01:14:12.034] Server  LOG      ✓ Compiled in 243ms
+[01:18:29.248] Server  ERROR    ⨯ ./app/(site)/contact/page.tsx:3:1
+Module not found: Can't resolve '@/components/contact-form'
+  1 | import { Mail, Phone, MapPin, Github, Linkedin, Send, Download } from "lucide-react";
+  2 | import Link from "next/link";
+> 3 | import ContactForm from "@/components/contact-form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export const metadata = { title: "İletişim" };
+  6 |
+
+Import map: aliased to relative './components/contact-form' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:29.253] Server  ERROR    ⨯ ./app/(site)/contact/page.tsx:3:1
+Module not found: Can't resolve '@/components/contact-form'
+  1 | import { Mail, Phone, MapPin, Github, Linkedin, Send, Download } from "lucide-react";
+  2 | import Link from "next/link";
+> 3 | import ContactForm from "@/components/contact-form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export const metadata = { title: "İletişim" };
+  6 |
+
+Import map: aliased to relative './components/contact-form' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:18:29.284] Server  LOG      ✓ Compiled in 253ms
+[01:18:30.031] Browser ERROR   ./app/(site)/contact/page.tsx:3:1
+Module not found: Can't resolve '@/components/contact-form'
+  1 | import { Mail, Phone, MapPin, Github, Linkedin, Send, Download } from "lucide-react";
+  2 | import Link from "next/link";
+> 3 | import ContactForm from "@/components/contact-form";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export const metadata = { title: "İletişim" };
+  6 |
+
+Import map: aliased to relative './components/contact-form' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:18:54.032] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `ContactPage`.
+[01:18:57.116] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:18:57.722] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:11.614] Server  LOG      ✓ Compiled in 263ms
+[01:20:48.589] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:24:37.253] Server  LOG      ✓ Compiled in 288ms
+[01:25:16.228] Server  WARN     ⚠ Cross origin request detected from f193235fe05a.ngrok-free.app to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[01:25:16.386] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:36.315] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:25:38.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:40.778] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:49.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:20.353] Server  LOG      ✓ Compiled in 287ms
+[01:47:20.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:48:07.256] Server  LOG      ✓ Compiled in 267ms
+[01:48:17.258] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:48:21.757] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:29:40.992] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:29:51.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:29:58.425] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:30:09.541] Server  WARN    Error: Route "/projects/[slug]" used `params.slug`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[02:30:15.552] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[02:34:36.642] Server  LOG      ✓ Compiled in 161ms
+[02:34:43.121] Server  LOG      ✓ Compiled in 291ms
+[02:34:47.580] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:34:58.749] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:38:24.163] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
