@@ -2,7 +2,6 @@
   "/(site)/contact/page": "app/(site)/contact/page.js",
   "/(site)/experience/page": "app/(site)/experience/page.js",
   "/(site)/page": "app/(site)/page.js",
-  "/(site)/projects/[slug]/page": "app/(site)/projects/[slug]/page.js",
   "/(site)/projects/page": "app/(site)/projects/page.js",
   "/(site)/skills/page": "app/(site)/skills/page.js",
   "/_not-found/page": "app/_not-found/page.js"

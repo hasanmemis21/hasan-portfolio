@@ -170,3 +170,7 @@ h2{
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;
 }
+/* deneyim kartı hover parıltısı */
+article:hover{
+  box-shadow: 0 10px 30px rgba(16,185,129,0.10);
+}

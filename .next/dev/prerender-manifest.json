@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/projects/oct-retina":{},"/projects/brain-tumor-detection":{},"/projects/cic-iot-analytics":{},"/projects/tubitak-quantum":{},"/projects/echo-ai-multimodal":{},"/projects/satellite-change-detection":{}},"dynamicRoutes":{"/projects/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/projects/[slug]","routeRegex":"^\\/projects\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"4c2ae326e27494d25e990df56f30817e","previewModeSigningKey":"51c84b457826ce94359aee0baf9e8ebe2066409ba268b9b2b46164b7a722501e","previewModeEncryptionKey":"6999bcaaa40986b646869322d1b98fe9618f1bc5880448ab0e635f8c58530c77"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "98ce435c6f5a14ae031784a91cae150c",
+    "previewModeSigningKey": "7c9f9c7a571a47df38073bc55ca3f5f1a4f56a83202acd4634aefe34921039b4",
+    "previewModeEncryptionKey": "ff5a22e1f9b129acacf2e83d7d1e4894a5c4fae8dabf5efe94d2fca639ed0321"
+  }
+}
